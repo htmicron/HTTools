@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Dialog_HTLogo">
+    <file>logo_blue.png</file>
+  </qresource>
+</RCC>
