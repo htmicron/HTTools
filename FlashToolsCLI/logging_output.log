@@ -1,229 +1,229 @@
-2023-05-02 13:21:25,952 INFO     [FlashTop]    init
-2023-05-02 13:21:25,961 [Process-45840] INFO     [FlashTop]    do_main: cmd loadpara
-2023-05-02 13:21:25,961 [Process-45840] INFO     [Para]    exe path: C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\HTTools\FlashToolsCLI
-2023-05-02 13:21:25,962 [Process-45840] INFO     [Para]    update digest file :C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\HTTools\FlashToolsCLI\cfg.digest, digest:b'\xd9\xcc\x2d\xc0\x8c\x3b\xf5\x85\x25\xfb\x60\x86\x59\x9d\x77\xfd\xb4\x71\x1e\xf5\x96\xe6\x45\x4a\xfd\xa1\x5b\xf6\x3b\xfd\x3e\x12' 
-2023-05-02 13:21:25,962 [Process-45840] INFO     [Para]    LoadPara from cfgfile(C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\HTTools\FlashToolsCLI\htnb32l.ini) 
-2023-05-02 13:21:25,963 [Process-45840] INFO     [Para]    CfgGetOpt except:section[bootloader] and option[blpath]
-2023-05-02 13:21:25,963 [Process-45840] INFO     [Para]    CfgGetOpt except:section[bootloader] and option[blloadskip]
-2023-05-02 13:21:25,963 [Process-45840] INFO     [Para]    CfgGetOpt except:section[system] and option[sysloadskip]
-2023-05-02 13:21:25,963 [Process-45840] WARNING  [Para]    Load para curdigest b'\xd9\xcc\x2d\xc0\x8c\x3b\xf5\x85\x25\xfb\x60\x86\x59\x9d\x77\xfd\xb4\x71\x1e\xf5\x96\xe6\x45\x4a\xfd\xa1\x5b\xf6\x3b\xfd\x3e\x12'
-2023-05-02 13:21:25,963 [Process-45840] INFO     [FlashTop]    Load para sync success
-2023-05-02 13:21:25,964 [Process-45840] INFO     [FlashToolCLI]    Burnbatch Start, burn imglist ['system'].
-2023-05-02 13:21:25,964 [Process-45840] INFO     [FlashTop]    do_main: cmd burnag, Thread0[42956]
-2023-05-02 13:21:25,964 [Process-45840] INFO     [Thread0]    ProcessStart[42956]
-2023-05-02 13:21:26,991 [Process-45840] INFO     [Thread0]    ResetBoard(Normal Mod) finish
-2023-05-02 13:21:26,992 [Process-45840] INFO     [Thread0]    args.ser.port :COM6
-2023-05-02 13:21:26,996 [Process-45840] INFO     [Image]    SetBaud 921600
-2023-05-02 13:21:26,997 [Process-45840] INFO     [Thread0]    TryDownload C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\HTTools\FlashToolsCLI\agentboot.bin start
-2023-05-02 13:21:26,998 [Process-45840] INFO     [Thread0]    image size=28568, hdsize=272
-2023-05-02 13:21:26,998 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:27,006 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:27,054 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:27,064 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:29,708 [Process-45840] INFO     [Thread0]    TryDownload agentboot success
-2023-05-02 13:21:29,709 [Process-45840] INFO     [Thread0]    agbaud: 921600
-2023-05-02 13:21:29,713 [Process-45840] INFO     [Thread0]    Burn OK!
-2023-05-02 13:21:29,714 [Process-45840] INFO     [Thread0]    ProcessEnd[42956]
-2023-05-02 13:21:29,714 [Process-45840] INFO     [FlashTop]    do_main: cmd burnone, Thread0[42956]
-2023-05-02 13:21:29,715 [Process-45840] INFO     [Thread0]    ProcessStart[42956]
-2023-05-02 13:21:29,715 [Process-45840] ERROR    [Image]    GetImageSize failed, src bin body path:  does not exist
-2023-05-02 13:21:29,716 [Process-45840] INFO     [Thread0]    args.ser.port :COM6
-2023-05-02 13:21:29,719 [Process-45840] INFO     [Thread0]    agentboot is downloaded already
-2023-05-02 13:21:29,719 [Process-45840] INFO     [Thread0]    TryDownload agentboot skip
-2023-05-02 13:21:29,720 [Process-45840] INFO     [Thread0]    agbaud: 921600
-2023-05-02 13:21:29,723 [Process-45840] INFO     [Thread0]    LPC Preamble Send
-2023-05-02 13:21:29,730 [Process-45840] INFO     [Thread0]    LPC Preamble Received Rsp
-2023-05-02 13:21:29,733 [Process-45840] INFO     [Thread0]    LPCSetSyncStat(1)
-2023-05-02 13:21:29,733 [Process-45840] INFO     [Thread0]    LPCSyncDetect: success
-2023-05-02 13:21:29,733 [Process-45840] INFO     [Thread0]    DownloadBurnOne imgtype(system)
-2023-05-02 13:21:29,734 [Process-45840] INFO     [Thread0]    DownloadBurnOne imgtype(system), burnaddr(0x0), imgid(0x444b4249)
-2023-05-02 13:21:29,734 [Process-45840] INFO     [Thread0]    DownloadBurnOne file C:/Users/hendrick.goncalves/Documents/NB-IoT/Firmware/rML00035a2.1/d/QCX212.FR.1.0-ML00035-LIBFW034.NOR.NBIOT.INT-2/Binaries_ARM/app-demo-flash.bin 
-2023-05-02 13:21:29,784 [Process-45840] INFO     [Thread0]    TryDownload C:/Users/hendrick.goncalves/Documents/NB-IoT/Firmware/rML00035a2.1/d/QCX212.FR.1.0-ML00035-LIBFW034.NOR.NBIOT.INT-2/Binaries_ARM/app-demo-flash.bin start
-2023-05-02 13:21:29,785 [Process-45840] INFO     [Thread0]    LPCBurnOneTrig start       			******
-2023-05-02 13:21:29,791 [Process-45840] INFO     [Thread0]    LPCBurnOneTrig success
-2023-05-02 13:21:29,791 [Process-45840] INFO     [Thread0]    DLDPreSync Preamble Send
-2023-05-02 13:21:30,311 [Process-45840] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
-2023-05-02 13:21:30,316 [Process-45840] INFO     [Thread0]    image size=2191832, hdsize=272
-2023-05-02 13:21:30,316 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:30,317 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2191832, Offset=0
-2023-05-02 13:21:30,318 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   0%}
-2023-05-02 13:21:30,319 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:30,320 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:30,333 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:30,352 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2191560, Offset=272
-2023-05-02 13:21:30,354 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   0%}
-2023-05-02 13:21:30,354 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:30,355 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:30,454 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:31,555 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2126024, Offset=65808
-2023-05-02 13:21:31,557 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   3%}
-2023-05-02 13:21:31,558 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:31,559 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:31,574 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:32,663 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2060488, Offset=131344
-2023-05-02 13:21:32,664 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   5%}
-2023-05-02 13:21:32,664 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:32,664 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:32,692 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:33,786 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1994952, Offset=196880
-2023-05-02 13:21:33,788 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   8%}
-2023-05-02 13:21:33,789 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:33,790 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:33,804 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:34,895 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1929416, Offset=262416
-2023-05-02 13:21:34,898 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   11%}
-2023-05-02 13:21:34,898 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:34,899 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:34,916 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:36,002 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1863880, Offset=327952
-2023-05-02 13:21:36,004 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   14%}
-2023-05-02 13:21:36,005 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:36,005 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:36,027 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:37,108 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1798344, Offset=393488
-2023-05-02 13:21:37,109 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   17%}
-2023-05-02 13:21:37,109 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:37,110 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:37,141 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:38,217 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1732808, Offset=459024
-2023-05-02 13:21:38,217 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   20%}
-2023-05-02 13:21:38,217 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:38,217 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:38,241 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:39,328 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1667272, Offset=524560
-2023-05-02 13:21:39,329 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   23%}
-2023-05-02 13:21:39,329 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:39,330 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:39,347 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:40,435 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1601736, Offset=590096
-2023-05-02 13:21:40,437 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   26%}
-2023-05-02 13:21:40,437 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:40,438 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:40,457 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:41,552 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1536200, Offset=655632
-2023-05-02 13:21:41,555 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   29%}
-2023-05-02 13:21:41,555 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:41,556 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:41,573 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:42,657 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1470664, Offset=721168
-2023-05-02 13:21:42,659 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   32%}
-2023-05-02 13:21:42,660 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:42,660 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:42,688 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:43,776 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1405128, Offset=786704
-2023-05-02 13:21:43,778 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   35%}
-2023-05-02 13:21:43,779 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:43,779 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:43,801 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:44,881 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1339592, Offset=852240
-2023-05-02 13:21:44,883 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   38%}
-2023-05-02 13:21:44,883 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:44,884 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:44,913 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:46,005 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1274056, Offset=917776
-2023-05-02 13:21:46,008 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   41%}
-2023-05-02 13:21:46,008 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:46,009 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:46,028 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:47,125 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1208520, Offset=983312
-2023-05-02 13:21:47,126 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   44%}
-2023-05-02 13:21:47,126 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:47,127 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:47,142 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:48,231 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1142984, Offset=1048848
-2023-05-02 13:21:48,232 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   47%}
-2023-05-02 13:21:48,233 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:48,233 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:48,254 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:49,339 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1077448, Offset=1114384
-2023-05-02 13:21:49,342 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   50%}
-2023-05-02 13:21:49,343 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:49,343 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:49,367 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:50,462 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1011912, Offset=1179920
-2023-05-02 13:21:50,465 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   53%}
-2023-05-02 13:21:50,465 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:50,466 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:50,482 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:51,568 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=946376, Offset=1245456
-2023-05-02 13:21:51,570 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   56%}
-2023-05-02 13:21:51,571 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:51,571 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:51,600 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:52,691 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=880840, Offset=1310992
-2023-05-02 13:21:52,693 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   59%}
-2023-05-02 13:21:52,693 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:52,694 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:52,715 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:53,811 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=815304, Offset=1376528
-2023-05-02 13:21:53,814 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   62%}
-2023-05-02 13:21:53,815 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:53,815 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:53,831 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:54,917 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=749768, Offset=1442064
-2023-05-02 13:21:54,919 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   65%}
-2023-05-02 13:21:54,920 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:54,920 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:54,947 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:56,038 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=684232, Offset=1507600
-2023-05-02 13:21:56,041 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   68%}
-2023-05-02 13:21:56,042 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:56,043 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:56,064 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:57,147 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=618696, Offset=1573136
-2023-05-02 13:21:57,149 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   71%}
-2023-05-02 13:21:57,150 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:57,150 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:57,177 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:58,270 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=553160, Offset=1638672
-2023-05-02 13:21:58,272 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   74%}
-2023-05-02 13:21:58,273 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:58,274 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:58,296 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:21:59,393 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=487624, Offset=1704208
-2023-05-02 13:21:59,395 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   77%}
-2023-05-02 13:21:59,396 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:21:59,396 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:21:59,411 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:00,503 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=422088, Offset=1769744
-2023-05-02 13:22:00,505 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   80%}
-2023-05-02 13:22:00,505 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:00,506 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:00,524 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:01,611 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=356552, Offset=1835280
-2023-05-02 13:22:01,613 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   83%}
-2023-05-02 13:22:01,614 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:01,614 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:01,642 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:02,734 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=291016, Offset=1900816
-2023-05-02 13:22:02,735 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   86%}
-2023-05-02 13:22:02,735 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:02,735 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:02,759 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:03,847 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=225480, Offset=1966352
-2023-05-02 13:22:03,848 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   89%}
-2023-05-02 13:22:03,848 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:03,848 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:03,868 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:04,935 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=159944, Offset=2031888
-2023-05-02 13:22:04,936 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   92%}
-2023-05-02 13:22:04,936 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:04,936 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:04,943 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:06,026 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=94408, Offset=2097424
-2023-05-02 13:22:06,027 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   95%}
-2023-05-02 13:22:06,027 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:06,027 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:06,054 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:07,131 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=28872, Offset=2162960
-2023-05-02 13:22:07,132 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   98%}
-2023-05-02 13:22:07,132 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:07,133 [Process-45840] INFO     [Thread0]    Preamble Send
-2023-05-02 13:22:07,548 [Process-45840] INFO     [Thread0]    Preamble Received Rsp
-2023-05-02 13:22:08,116 [Process-45840] INFO     [Thread0]    imginfo.size=2191832, RemainLen=0, Offset=2162960
-2023-05-02 13:22:08,116 [Process-45840] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   100%}
-2023-05-02 13:22:08,117 [Process-45840] INFO     [Thread0]    
-2023-05-02 13:22:08,118 [Process-45840] INFO     [Thread0]    TryDownload success
-2023-05-02 13:22:08,119 [Process-45840] INFO     [Thread0]    Burn OK!
-2023-05-02 13:22:08,119 [Process-45840] INFO     [Thread0]    ProcessEnd[42956]
-2023-05-02 13:22:08,119 [Process-45840] INFO     [FlashToolCLI]    Burnbatch OK, imglist ['system']
+2023-05-03 11:47:25,200 INFO     [FlashTop]    init
+2023-05-03 11:47:25,203 [Process-7408] INFO     [FlashTop]    do_main: cmd loadpara
+2023-05-03 11:47:25,203 [Process-7408] INFO     [Para]    exe path: C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\Release\HTTools\FlashToolsCLI
+2023-05-03 11:47:25,205 [Process-7408] INFO     [Para]    update digest file :C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\Release\HTTools\FlashToolsCLI\cfg.digest, digest:b'\xd9\xcc\x2d\xc0\x8c\x3b\xf5\x85\x25\xfb\x60\x86\x59\x9d\x77\xfd\xb4\x71\x1e\xf5\x96\xe6\x45\x4a\xfd\xa1\x5b\xf6\x3b\xfd\x3e\x12' 
+2023-05-03 11:47:25,205 [Process-7408] INFO     [Para]    LoadPara from cfgfile(C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\Release\HTTools\FlashToolsCLI\htnb32l.ini) 
+2023-05-03 11:47:25,205 [Process-7408] INFO     [Para]    CfgGetOpt except:section[bootloader] and option[blpath]
+2023-05-03 11:47:25,205 [Process-7408] INFO     [Para]    CfgGetOpt except:section[bootloader] and option[blloadskip]
+2023-05-03 11:47:25,205 [Process-7408] INFO     [Para]    CfgGetOpt except:section[system] and option[sysloadskip]
+2023-05-03 11:47:25,206 [Process-7408] WARNING  [Para]    Load para curdigest b'\xd9\xcc\x2d\xc0\x8c\x3b\xf5\x85\x25\xfb\x60\x86\x59\x9d\x77\xfd\xb4\x71\x1e\xf5\x96\xe6\x45\x4a\xfd\xa1\x5b\xf6\x3b\xfd\x3e\x12'
+2023-05-03 11:47:25,206 [Process-7408] INFO     [FlashTop]    Load para sync success
+2023-05-03 11:47:25,206 [Process-7408] INFO     [FlashToolCLI]    Burnbatch Start, burn imglist ['system'].
+2023-05-03 11:47:25,206 [Process-7408] INFO     [FlashTop]    do_main: cmd burnag, Thread0[26680]
+2023-05-03 11:47:25,207 [Process-7408] INFO     [Thread0]    ProcessStart[26680]
+2023-05-03 11:47:26,227 [Process-7408] INFO     [Thread0]    ResetBoard(Normal Mod) finish
+2023-05-03 11:47:26,229 [Process-7408] INFO     [Thread0]    args.ser.port :COM6
+2023-05-03 11:47:26,237 [Process-7408] INFO     [Image]    SetBaud 921600
+2023-05-03 11:47:26,240 [Process-7408] INFO     [Thread0]    TryDownload C:\Users\hendrick.goncalves\Documents\NB-IoT\HTTools\Release\HTTools\FlashToolsCLI\agentboot.bin start
+2023-05-03 11:47:26,240 [Process-7408] INFO     [Thread0]    image size=28568, hdsize=272
+2023-05-03 11:47:26,241 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:26,249 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:26,291 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:26,296 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:28,928 [Process-7408] INFO     [Thread0]    TryDownload agentboot success
+2023-05-03 11:47:28,929 [Process-7408] INFO     [Thread0]    agbaud: 921600
+2023-05-03 11:47:28,931 [Process-7408] INFO     [Thread0]    Burn OK!
+2023-05-03 11:47:28,931 [Process-7408] INFO     [Thread0]    ProcessEnd[26680]
+2023-05-03 11:47:28,931 [Process-7408] INFO     [FlashTop]    do_main: cmd burnone, Thread0[26680]
+2023-05-03 11:47:28,932 [Process-7408] INFO     [Thread0]    ProcessStart[26680]
+2023-05-03 11:47:28,932 [Process-7408] ERROR    [Image]    GetImageSize failed, src bin body path:  does not exist
+2023-05-03 11:47:28,932 [Process-7408] INFO     [Thread0]    args.ser.port :COM6
+2023-05-03 11:47:28,934 [Process-7408] INFO     [Thread0]    agentboot is downloaded already
+2023-05-03 11:47:28,934 [Process-7408] INFO     [Thread0]    TryDownload agentboot skip
+2023-05-03 11:47:28,935 [Process-7408] INFO     [Thread0]    agbaud: 921600
+2023-05-03 11:47:28,936 [Process-7408] INFO     [Thread0]    LPC Preamble Send
+2023-05-03 11:47:28,940 [Process-7408] INFO     [Thread0]    LPC Preamble Received Rsp
+2023-05-03 11:47:28,941 [Process-7408] INFO     [Thread0]    LPCSetSyncStat(1)
+2023-05-03 11:47:28,942 [Process-7408] INFO     [Thread0]    LPCSyncDetect: success
+2023-05-03 11:47:28,942 [Process-7408] INFO     [Thread0]    DownloadBurnOne imgtype(system)
+2023-05-03 11:47:28,942 [Process-7408] INFO     [Thread0]    DownloadBurnOne imgtype(system), burnaddr(0x0), imgid(0x444b4249)
+2023-05-03 11:47:28,942 [Process-7408] INFO     [Thread0]    DownloadBurnOne file C:/Users/hendrick.goncalves/Documents/NB-IoT/Firmware/rML00035a2.1/d/QCX212.FR.1.0-ML00035-LIBFW034.NOR.NBIOT.INT-2/Binaries_ARM/app-demo-flash.bin 
+2023-05-03 11:47:28,971 [Process-7408] INFO     [Thread0]    TryDownload C:/Users/hendrick.goncalves/Documents/NB-IoT/Firmware/rML00035a2.1/d/QCX212.FR.1.0-ML00035-LIBFW034.NOR.NBIOT.INT-2/Binaries_ARM/app-demo-flash.bin start
+2023-05-03 11:47:28,971 [Process-7408] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2023-05-03 11:47:28,978 [Process-7408] INFO     [Thread0]    LPCBurnOneTrig success
+2023-05-03 11:47:28,978 [Process-7408] INFO     [Thread0]    DLDPreSync Preamble Send
+2023-05-03 11:47:29,497 [Process-7408] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2023-05-03 11:47:29,499 [Process-7408] INFO     [Thread0]    image size=2191832, hdsize=272
+2023-05-03 11:47:29,499 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:29,499 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2191832, Offset=0
+2023-05-03 11:47:29,500 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   0%}
+2023-05-03 11:47:29,500 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:29,500 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:29,509 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:29,521 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2191560, Offset=272
+2023-05-03 11:47:29,521 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   0%}
+2023-05-03 11:47:29,521 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:29,521 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:29,623 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:30,723 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2126024, Offset=65808
+2023-05-03 11:47:30,724 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   3%}
+2023-05-03 11:47:30,724 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:30,724 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:30,743 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:31,835 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=2060488, Offset=131344
+2023-05-03 11:47:31,836 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   5%}
+2023-05-03 11:47:31,836 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:31,836 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:31,864 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:32,970 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1994952, Offset=196880
+2023-05-03 11:47:32,972 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   8%}
+2023-05-03 11:47:32,972 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:32,973 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:32,993 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:34,088 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1929416, Offset=262416
+2023-05-03 11:47:34,090 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   11%}
+2023-05-03 11:47:34,091 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:34,091 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:34,115 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:35,205 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1863880, Offset=327952
+2023-05-03 11:47:35,205 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   14%}
+2023-05-03 11:47:35,206 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:35,206 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:35,238 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:36,324 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1798344, Offset=393488
+2023-05-03 11:47:36,324 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   17%}
+2023-05-03 11:47:36,324 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:36,325 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:36,353 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:37,444 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1732808, Offset=459024
+2023-05-03 11:47:37,444 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   20%}
+2023-05-03 11:47:37,445 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:37,445 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:37,464 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:38,567 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1667272, Offset=524560
+2023-05-03 11:47:38,569 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   23%}
+2023-05-03 11:47:38,570 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:38,571 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:38,595 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:39,685 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1601736, Offset=590096
+2023-05-03 11:47:39,686 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   26%}
+2023-05-03 11:47:39,687 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:39,687 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:39,712 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:40,820 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1536200, Offset=655632
+2023-05-03 11:47:40,821 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   29%}
+2023-05-03 11:47:40,821 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:40,822 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:40,838 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:41,921 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1470664, Offset=721168
+2023-05-03 11:47:41,921 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   32%}
+2023-05-03 11:47:41,921 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:41,921 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:41,952 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:43,028 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1405128, Offset=786704
+2023-05-03 11:47:43,029 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   35%}
+2023-05-03 11:47:43,029 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:43,029 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:43,058 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:44,146 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1339592, Offset=852240
+2023-05-03 11:47:44,147 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   38%}
+2023-05-03 11:47:44,147 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:44,148 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:44,171 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:45,271 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1274056, Offset=917776
+2023-05-03 11:47:45,273 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   41%}
+2023-05-03 11:47:45,273 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:45,274 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:45,289 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:46,405 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1208520, Offset=983312
+2023-05-03 11:47:46,407 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   44%}
+2023-05-03 11:47:46,407 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:46,408 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:46,423 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:47,544 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1142984, Offset=1048848
+2023-05-03 11:47:47,546 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   47%}
+2023-05-03 11:47:47,547 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:47,547 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:47,568 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:48,677 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1077448, Offset=1114384
+2023-05-03 11:47:48,679 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   50%}
+2023-05-03 11:47:48,679 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:48,680 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:48,699 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:49,799 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=1011912, Offset=1179920
+2023-05-03 11:47:49,801 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   53%}
+2023-05-03 11:47:49,801 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:49,801 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:49,830 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:50,937 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=946376, Offset=1245456
+2023-05-03 11:47:50,938 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   56%}
+2023-05-03 11:47:50,938 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:50,939 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:50,963 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:52,056 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=880840, Offset=1310992
+2023-05-03 11:47:52,057 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   59%}
+2023-05-03 11:47:52,057 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:52,057 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:52,075 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:53,209 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=815304, Offset=1376528
+2023-05-03 11:47:53,210 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   62%}
+2023-05-03 11:47:53,210 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:53,211 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:53,233 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:54,328 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=749768, Offset=1442064
+2023-05-03 11:47:54,328 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   65%}
+2023-05-03 11:47:54,328 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:54,329 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:54,350 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:55,445 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=684232, Offset=1507600
+2023-05-03 11:47:55,446 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   68%}
+2023-05-03 11:47:55,446 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:55,446 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:55,468 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:56,551 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=618696, Offset=1573136
+2023-05-03 11:47:56,553 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   71%}
+2023-05-03 11:47:56,554 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:56,554 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:56,581 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:57,688 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=553160, Offset=1638672
+2023-05-03 11:47:57,688 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   74%}
+2023-05-03 11:47:57,689 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:57,689 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:57,713 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:58,805 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=487624, Offset=1704208
+2023-05-03 11:47:58,805 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   77%}
+2023-05-03 11:47:58,805 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:58,806 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:58,836 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:47:59,939 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=422088, Offset=1769744
+2023-05-03 11:47:59,940 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   80%}
+2023-05-03 11:47:59,940 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:47:59,940 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:47:59,957 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:01,040 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=356552, Offset=1835280
+2023-05-03 11:48:01,042 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   83%}
+2023-05-03 11:48:01,042 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:01,042 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:48:01,070 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:02,164 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=291016, Offset=1900816
+2023-05-03 11:48:02,166 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   86%}
+2023-05-03 11:48:02,167 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:02,167 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:48:02,187 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:03,284 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=225480, Offset=1966352
+2023-05-03 11:48:03,286 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   89%}
+2023-05-03 11:48:03,286 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:03,287 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:48:03,309 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:04,375 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=159944, Offset=2031888
+2023-05-03 11:48:04,376 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   92%}
+2023-05-03 11:48:04,376 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:04,377 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:48:04,383 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:05,475 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=94408, Offset=2097424
+2023-05-03 11:48:05,475 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   95%}
+2023-05-03 11:48:05,475 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:05,475 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:48:05,503 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:06,609 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=28872, Offset=2162960
+2023-05-03 11:48:06,611 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   98%}
+2023-05-03 11:48:06,611 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:06,611 [Process-7408] INFO     [Thread0]    Preamble Send
+2023-05-03 11:48:07,029 [Process-7408] INFO     [Thread0]    Preamble Received Rsp
+2023-05-03 11:48:07,617 [Process-7408] INFO     [Thread0]    imginfo.size=2191832, RemainLen=0, Offset=2162960
+2023-05-03 11:48:07,618 [Process-7408] INFO     [Thread0]    {app-demo-flash.bin-percent files transferred   100%}
+2023-05-03 11:48:07,619 [Process-7408] INFO     [Thread0]    
+2023-05-03 11:48:07,621 [Process-7408] INFO     [Thread0]    TryDownload success
+2023-05-03 11:48:07,622 [Process-7408] INFO     [Thread0]    Burn OK!
+2023-05-03 11:48:07,623 [Process-7408] INFO     [Thread0]    ProcessEnd[26680]
+2023-05-03 11:48:07,623 [Process-7408] INFO     [FlashToolCLI]    Burnbatch OK, imglist ['system']
